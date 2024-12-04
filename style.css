@@ -12,11 +12,22 @@ body {
     margin-bottom: 5%;
   }
 
+  .container-color{
+    color: aliceblue;
+    text-shadow: 2px 2px 3px black;
+  }
+
   @keyframes colorShift {
     0% { color: rgb(255, 0, 0); }
     33% { color: rgb(0, 255, 0); }
     66% { color: rgb(0, 0, 255); }
     100% { color: rgb(255, 0, 0); }
+}
+
+.card-img-top {
+  width: 450px;
+  height: 450px;
+  object-fit: contain;
 }
 
 .card-body {
@@ -32,10 +43,18 @@ body {
   background-repeat: no-repeat;
 }
 
+.TipoWater{
+  color: crimson;
+}
+
 .FondoSteel {
   background-image: url('SRC/FondoAcero.jpg');
   background-size: cover;
   background-repeat: no-repeat;
+}
+
+.tipoSteel{
+
 }
 
 .FondoFire {
@@ -62,6 +81,10 @@ body {
   background-repeat: no-repeat;
 }
 
+.TipoGhost {
+  color: orange;
+}
+
 .FondoFairy {
   background-image: url('SRC/FondoHada.jpg');
   background-size: cover;
@@ -78,6 +101,10 @@ body {
   background-image: url('SRC/FondoVolador.jpg');
   background-size: cover;
   background-repeat: no-repeat;
+}
+
+.TipoFlying {
+  color: greenyellow;
 }
 
 .FondoPoison {
@@ -110,6 +137,10 @@ body {
   background-repeat: no-repeat;
 }
 
+.TipoGround {
+  color: blue;
+}
+
 .FondoPsychic {
   background-image: url('SRC/FondoPsiquico.jpg');
   background-size: cover;
@@ -122,8 +153,22 @@ body {
   background-repeat: no-repeat;
 }
 
+.TipoGrass {
+  color: yellow;
+}
+
 .FondoBug {
   background-image: url('SRC/FondoInsecto.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.TipoBug {
+  color: cyan;
+}
+
+.FondoElectric {
+  background-image: url('SRC/FondoElectrico.jpg');
   background-size: cover;
   background-repeat: no-repeat;
 }
