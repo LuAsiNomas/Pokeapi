@@ -1,0 +1,129 @@
+body {
+    margin-left: 5%;
+    margin-right: 5%;
+    padding: 0%;
+    text-align: center;
+  }
+  
+  .container {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5%;
+    margin-bottom: 5%;
+  }
+
+  @keyframes colorShift {
+    0% { color: rgb(255, 0, 0); }
+    33% { color: rgb(0, 255, 0); }
+    66% { color: rgb(0, 0, 255); }
+    100% { color: rgb(255, 0, 0); }
+}
+
+.card-body {
+    background: none; 
+    animation: colorShift 5s infinite; 
+    font-weight: bold;
+    text-shadow: 1px 1px 2px black; 
+}
+
+.FondoWater {
+  background-image: url('SRC/FondoAgua.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.FondoSteel {
+  background-image: url('SRC/FondoAcero.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.FondoFire {
+  background-image: url('SRC/FondoFuego.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.FondoRock {
+  background-image: url('SRC/FondoRoca.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.FondoDark {
+  background-image: url('SRC/FondoOscuro.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.FondoGhost {
+  background-image: url('SRC/FondoFantasma.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.FondoFairy {
+  background-image: url('SRC/FondoHada.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.FondoNormal {
+  background-image: url('SRC/FondoNormal.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.FondoFlying {
+  background-image: url('SRC/FondoVolador.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.FondoPoison {
+  background-image: url('SRC/FondoVeneno.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.FondoFighting {
+  background-image: url('SRC/FondoLucha.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.FondoIce {
+  background-image: url('SRC/FondoHielo.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.FondoDragon {
+  background-image: url('SRC/FondoDragon.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.FondoGrond {
+  background-image: url('SRC/FondoTierra.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.FondoPsychic {
+  background-image: url('SRC/FondoPsiquico.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.FondoGrass {
+  background-image: url('SRC/FondoPlanta.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.FondoBug {
+  background-image: url('SRC/FondoInsecto.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
