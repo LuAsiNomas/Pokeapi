@@ -28,14 +28,16 @@ function buscar() {
                                 <img src="${uriImg}" class="card-img-top" alt="${nombre}">
                             </div>
                             <div class="card-body" style="flex: 2;">
-                                <h5 class="card-title Tipo${tipoSeleccionado.charAt(0).toUpperCase() + tipoSeleccionado.slice(1)}">${nombre} (#${json.id})</h5>
-                                <p class="card-text Tipo${tipoSeleccionado.charAt(0).toUpperCase() + tipoSeleccionado.slice(1)}">
-                                    <strong>Tipo(s):</strong> ${tipos.join(", ")}<br>
-                                    <strong>Altura:</strong> ${json.height / 10} m<br>
-                                    <strong>Peso:</strong> ${json.weight / 10} kg<br>
-                                    <strong>Habilidades:</strong> ${json.abilities.map(a => a.ability.name).join(", ")}<br>
-                                    <strong>Experiencia Base:</strong> ${json.base_experience}
-                                </p>
+                                <div class="container-text">
+                                    <h5 class="card-title">${nombre} (#${json.id})</h5>
+                                    <p class="card-text">
+                                        <strong>Tipo(s):</strong> ${tipos.join(", ")}<br>
+                                        <strong>Altura:</strong> ${json.height / 10} m<br>
+                                        <strong>Peso:</strong> ${json.weight / 10} kg<br>
+                                        <strong>Habilidades:</strong> ${json.abilities.map(a => a.ability.name).join(", ")}<br>
+                                        <strong>Experiencia Base:</strong> ${json.base_experience}
+                                    </p>
+                                <div>
                             </div>
                         </div>`;
                     tarjetas.innerHTML = html;
